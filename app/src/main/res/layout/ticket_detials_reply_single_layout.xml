@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="replyData"
+            type="com.asprime.techmatesupport.model.TicketListModel" />
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:decideLayout="@{replyData.SM}"
+        android:gravity="end">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{replyData.Details}"
+            app:colorLayout="@{replyData.SM}"
+            android:paddingStart="10dp"
+            android:textColor="@color/white"
+            android:paddingTop="5dp"
+            android:paddingEnd="10dp"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bindReplyOwner="@{replyData.UserName}"
+            app:dateData="@{replyData.TrnDate}"/>
+
+    </LinearLayout>
+</layout>

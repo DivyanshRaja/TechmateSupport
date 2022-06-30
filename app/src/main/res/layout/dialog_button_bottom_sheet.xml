@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="onClickInterface"
+            type="com.asprime.techmatesupport.listners.OnClickHandlerInterface" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:behavior_hideable="true"
+        app:behavior_peekHeight="0dp"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dialog_bg_round"
+            android:backgroundTint="@color/colorDefaultBottomDialogBackground"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dialogTitle"
+                style="@style/BottomDiaologTitleStyle"
+                android:text="Select any option" />
+
+            <View style="@style/BottomDialogButtonsSeparator" />
+
+            <TextView
+                android:id="@+id/resolvedTicketBtn"
+                style="@style/ButtonDialogButtonText"
+                android:text="@string/resolved"
+                android:onClick="@{(v)->onClickInterface.onClick(v)}"/>
+
+            <View style="@style/BottomDialogButtonsSeparator" />
+
+            <TextView
+                android:id="@+id/editTicketBtn"
+                style="@style/ButtonDialogButtonText"
+                android:text="@string/edit"
+                android:onClick="@{(v)->onClickInterface.onClick(v)}"/>
+
+            <View style="@style/BottomDialogButtonsSeparator" />
+
+            <TextView
+                android:id="@+id/respondTicketBtn"
+                style="@style/ButtonDialogButtonText"
+                android:text="@string/respond"
+                android:onClick="@{(v)->onClickInterface.onClick(v)}"/>
+
+            <View style="@style/BottomDialogButtonsSeparator" />
+
+            <TextView
+                android:id="@+id/viewTicketBtn"
+                style="@style/ButtonDialogButtonText"
+                android:paddingBottom="5dp"
+                android:text="@string/view_ticket"
+                android:onClick="@{(v)->onClickInterface.onClick(v)}"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/cancelBtn"
+            style="@style/ButtonDialogButtonText"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/dialog_cancel_btn_bg_round"
+            android:backgroundTint="@color/white"
+            android:text="@string/cancel"
+            android:onClick="@{(v)->onClickInterface.onClick(v)}"
+            android:textColor="@color/colorError"
+            android:textSize="18sp" />
+    </LinearLayout>
+</layout>

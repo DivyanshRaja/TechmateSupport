@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="ticketHistoryData"
+            type="com.asprime.techmatesupport.model.TicketListModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/idTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/koz_go_pro_regular"
+                android:gravity="start"
+                android:lineSpacingExtra="5dp"
+                android:text='@{"TICKET NO\n#"+ticketHistoryData.TicketNo}'
+                android:textColor="@color/aspireTextColor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingStart="5dp"
+                android:paddingTop="2dp"
+                android:paddingEnd="5dp"
+                android:paddingBottom="2dp"
+                android:textColor="@color/white"
+                app:text='@{ticketHistoryData.Resolved}' />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/koz_go_pro_regular"
+                android:gravity="end"
+                android:lineSpacingExtra="5dp"
+                android:text='@{"ISSUED TO\n" + ticketHistoryData.userName}'
+                android:textColor="@color/aspireTextColor" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/kozgo_pro_light"
+            android:maxLines="1"
+            android:text='@{ticketHistoryData.TrnTitle.length() > 0 ? "Title: " + String.valueOf(ticketHistoryData.TrnTitle.charAt(0)).toUpperCase()+ ticketHistoryData.TrnTitle.substring(1) : "Title: "}'
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/kozgo_pro_light"
+            android:maxLines="1"
+            android:text='@{ticketHistoryData.Details.length() > 0 ? "Details: " +String.valueOf(ticketHistoryData.Details.charAt(0)).toUpperCase()+ ticketHistoryData.Details.substring(1) : "Details: "}' />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kozgo_pro_light"
+            android:text='@{"Device Details : " + ticketHistoryData.DeviceIP}' />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kozgo_pro_light"
+            android:text='@{"Software : " + ticketHistoryData.SoftName}' />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kozgo_pro_light"
+            android:visibility="@{!ticketHistoryData.Resolved ? View.GONE : View.VISIBLE}"
+            app:dateWithText='@{ticketHistoryData.trnDate}' />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/attachmentBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:text="@{ticketHistoryData.AttachedFileNo}"
+                android:textColor="#E20505"
+                android:textSize="18sp"
+                app:drawableStartCompat="@drawable/ic_baseline_attach_file_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/viewDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:text="@string/view_detail"
+                android:textColor="@color/colorPrimary"
+                app:drawableStartCompat="@drawable/ic_baseline_calendar_month_24"
+                app:drawableTint="@color/colorPrimary"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/reverseTextView"
+                app:layout_constraintStart_toEndOf="@id/attachmentBtn"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/reverseTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:text="@string/reverse_ticket"
+                android:textColor="@color/colorError"
+                android:visibility="@{!ticketHistoryData.Resolved ? View.INVISIBLE : View.VISIBLE}"
+                app:drawableStartCompat="@drawable/ic_baseline_reverse_24"
+                app:drawableTint="@color/colorError"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/dateTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:drawablePadding="5dp"
+                android:gravity="center_vertical"
+                android:visibility="@{ticketHistoryData.Resolved ? View.GONE : View.VISIBLE}"
+                app:bindServerDate="@{ticketHistoryData.trnDate}"
+                app:drawableStartCompat="@drawable/ic_baseline_ticket_history_24"
+                app:drawableTint="@android:color/darker_gray"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</layout>

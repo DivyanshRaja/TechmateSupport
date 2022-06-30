@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="attachmentData"
+            type="com.asprime.techmatesupport.model.TicketAttachmentDetailsModel" />
+
+        <variable
+            name="childAttachmentAdapter"
+            type="com.asprime.techmatesupport.adapter.ViewAttachmentChildAdapter" />
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:fontFamily="@font/kozgo_pro_light"
+            android:lineSpacingExtra="2dp"
+            android:text='@{"Uploaded By " + attachmentData.UserName + " on " + attachmentData.trnDate}'
+            android:textSize="13sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/light_grey" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            android:orientation="vertical"
+            app:spanCount="3"
+            android:layout_marginBottom="15dp"
+            android:adapter="@{childAttachmentAdapter}"/>
+
+    </LinearLayout>
+</layout>

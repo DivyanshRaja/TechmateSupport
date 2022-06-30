@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">TechMate Support</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="kindly_enter_username_to_reset_password">Kindly enter username to reset password</string>
+
+    <!--Use -->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <!--Menu Item String-->
+    <string name="home_item">Home</string>
+    <string name="issue_tracker_item">Issue Tracker</string>
+    <string name="request_ticket_item">Request Ticket</string>
+    <string name="pending_ticket_item">Pending Ticket</string>
+    <string name="ticket_history_item">Ticket History</string>
+    <string name="users_item">Users</string>
+    <string name="whats_new_manuals_item">What\'s New</string>
+    <string name="user_manuals_item">User Manuals</string>
+    <string name="positive_license_key_item">Positive License Key</string>
+    <string name="change_password_item">Change Password</string>
+    <string name="contact_us_item">Contact Us</string>
+    <string name="window_desktop">Windows Desktop</string>
+    <string name="android_ios">Android/IOS</string>
+    <string name="web">Web</string>
+    <string name="logout">Logout</string>
+    <string name="cancel">Cancel</string>
+    <string name="device">Devices</string>
+    <string name="search_for_records">Search for records</string>
+    <string name="user_s_list">User\'s List</string>
+    <string name="email_address">Email Address</string>
+    <string name="send_ticket">Send Ticket</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="update">Update</string>
+    <string name="close">Close</string>
+    <string name="device_s_list">Device\'s List</string>
+    <string name="send_message">Send Message</string>
+    <string name="send">Send</string>
+    <string name="write_your_query_here">Write your query here...</string>
+    <string name="device_ip">Device IP</string>
+    <string name="device_name">Device Name</string>
+    <string name="stores">Stores</string>
+    <string name="from_date">From Date</string>
+    <string name="to_date">To Date</string>
+    <string name="date_range">Date Range</string>
+    <string name="set_new_url">Set New URL</string>
+    <string name="deviceId">Device ID</string>
+    <string name="current_set_url">Current Set URL</string>
+    <string name="more_details">More</string>
+    <string name="status">Status :</string>
+    <string name="default_notification_channel_id">TechmateChannel</string>
+    <string name="user_profile">User Profile</string>
+    <string name="company">Company</string>
+    <string name="view_ticket" >View Ticket</string>
+    <string name="merchants">Merchants</string>
+    <string name="software">Software</string>
+    <string name="only_1_zip_file_allowed_max_20mb_size">Only 1 zip file allowed, max 20mb size</string>
+    <string name="add">Add</string>
+    <string name="upload">Upload</string>
+    <string name="content_list">Content List</string>
+    <string name="check_internet">Oops..\nUnable to connect! Please try again later</string>
+    <string name="resolved">Resolved</string>
+    <string name="edit">Edit</string>
+    <string name="respond">Respond</string>
+    <string name="transaction_type">Transaction Type</string>
+    <string name="transfer_ticket_to">Transfer Ticket To</string>
+    <string name="reverse_ticket">Reverse Ticket</string>
+    <string name="view_detail">View Detail</string>
+    <string name="support_agent">Support Agent</string>
+    <string name="company_name">Company Name</string>
+    <string name="company_code">Company Code</string>
+    <string name="stores_code">Stores Code</string>
+    <string name="store_name">Store Name</string>
+
+    <array name="trn_type_array" >
+        <item name="1">General Issues</item>
+        <item name="2">Customisation</item>
+    </array>
+
+    <array name="date_range">
+        <item name="Mon">Weekly</item>
+        <item name="Tue">Monthly</item>
+        <item name="Wed">Yearly</item>
+    </array>
+
+    <array name="month_array">
+        <item name="1">January</item>
+        <item name="2">February</item>
+        <item name="3">March</item>
+        <item name="4">April</item>
+        <item name="5">May</item>
+        <item name="6">June</item>
+        <item name="7">July</item>
+        <item name="8">August</item>
+        <item name="9">September</item>
+        <item name="10">October</item>
+        <item name="11">November</item>
+        <item name="12">December</item>
+    </array>
+
+    <array name="dummy">
+        <item name="Mon">Demo</item>
+        <item name="Tue">Demo</item>
+        <item name="Wed">Demo</item>
+    </array>
+
+    <array name="view_ticket_array">
+        <item name="0">Only Mine</item>
+        <item name="1">Other</item>
+    </array>
+
+</resources>

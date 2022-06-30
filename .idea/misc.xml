@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Development/Works Space/Android Project/New Project/techmats/app/src/main/res/drawable/gradient_bg.xml" value="0.2169230769230769" />
+        <entry key="..\:/Android Development/Works Space/Android Project/New Project/techmats/app/src/main/res/layout/activity_splash.xml" value="0.22" />
+        <entry key="..\:/Android Development/Works Space/Android Project/New Project/techmats/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2169230769230769" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/drawable/edit_text_bg.xml" value="0.1525" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/drawable/gradient_bg.xml" value="0.1555" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.162" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/drawable/ic_baseline_check_circle_outline_24.xml" value="0.1525" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/drawable/ic_baseline_filter_alt_24.xml" value="0.137" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/drawable/ic_baseline_format_list_bulleted_24.xml" value="0.149" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/drawable/ic_baseline_mode_edit_24.xml" value="0.1565" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/activity_common.xml" value="0.2" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/activity_splash.xml" value="0.33" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/add_edit_company_dialog.xml" value="0.22" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/add_edit_store_dialog.xml" value="0.28072916666666664" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/alert_dialog_layout.xml" value="0.26875" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/attachment_child_layout.xml" value="0.28072916666666664" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/company_single_item_layout.xml" value="0.28072916666666664" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/confirmation_dialog_layout.xml" value="0.2" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/content_upload_fragment.xml" value="0.22" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/dashboard_fragment.xml" value="0.2" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/device_single_item.xml" value="0.26875" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/dialog_button_bottom_sheet.xml" value="0.28072916666666664" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/eazzy_pay_transaction_fragment.xml" value="0.25" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/eazzy_trn_single_item_layout.xml" value="0.26875" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/edit_device_dialog_layout.xml" value="0.26875" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/forgot_password_dialog.xml" value="0.2" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/fragment_change_password.xml" value="0.26875" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/fragment_companies.xml" value="0.28072916666666664" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/fragment_devices.xml" value="0.26875" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/fragment_pending_ticket.xml" value="0.25" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/fragment_request_ticket.xml" value="0.25" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/fragment_users.xml" value="0.26875" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/list_group_child.xml" value="0.2" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/list_group_header.xml" value="0.2" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/mobile_app_activation_fragment.xml" value="0.26875" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/mobile_device_activation_single_item.xml" value="0.25" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/navigation_header_layout.xml" value="0.2" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/notification_setup.xml" value="0.26875" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/pending_ticket_single_layout.xml" value="0.26875" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/pos_key_single_layout.xml" value="0.26875" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/positive_license_key_layout.xml" value="0.26875" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/sample_custom_btn.xml" value="0.26666666666666666" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/selected_image_single_list_item.xml" value="0.26875" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/store_fragment.xml" value="0.28072916666666664" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/store_single_item_layout.xml" value="0.22" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/ticket_detials_reply_single_layout.xml" value="0.28072916666666664" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/ticket_edit_dialog.xml" value="0.28072916666666664" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/ticket_history_fragment.xml" value="0.26875" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/ticket_history_single_item.xml" value="0.26875" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/ticket_respond_layout.xml" value="0.28072916666666664" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/ticket_view_attachment_parent_layout.xml" value="0.28072916666666664" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/upload_content_list_dialog.xml" value="0.28072916666666664" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/user_list_single_item.xml" value="0.26875" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/user_options_bottom_sheet.xml" value="0.26875" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/view_attachment_list_layout.xml" value="0.28072916666666664" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/layout/view_ticket_details_layout.xml" value="0.28072916666666664" />
+        <entry key="..\:/Android_projects/TechMateSupportNew/app/src/main/res/menu/actionbar_menu.xml" value="0.2" />
+        <entry key="..\:/TechMateSupportNew/app/src/main/res/layout/activity_login.xml" value="0.22826086956521738" />
+        <entry key="..\:/TechMateSupportNew/app/src/main/res/layout/store_fragment.xml" value="0.22826086956521738" />
+        <entry key="..\:/TechMateSupportNew/app/src/main/res/layout/store_single_item_layout.xml" value="0.12158054711246201" />
+        <entry key="..\:/TechMateSupportNew/app/src/main/res/layout/ticket_view_attachment_parent_layout.xml" value="0.22826086956521738" />
+        <entry key="..\:/software/TechMateSupportNew/app/src/main/res/layout/activity_login.xml" value="0.23802083333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

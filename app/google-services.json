@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "430550661582",
+    "firebase_url": "https://techmatesupport-c1760.firebaseio.com",
+    "project_id": "techmatesupport-c1760",
+    "storage_bucket": "techmatesupport-c1760.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430550661582:android:b439a5af834158567f539f",
+        "android_client_info": {
+          "package_name": "com.asprime.techmatesupport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430550661582-2i3cknu7unhnfvih70spamsj18ndafj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3gIhswMVnqb05ueScUWDlDCKpH1HKzPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430550661582-2i3cknu7unhnfvih70spamsj18ndafj4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingStart="25dp"
+    android:paddingEnd="5dp">
+
+    <ImageView
+        android:id="@+id/icon_child"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:tint="#616468"
+        android:padding="2dp"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/lblListItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:textSize="16sp"
+        android:fontFamily="@font/koz_go_pro_regular"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        app:tint="#616468"/>
+</LinearLayout>

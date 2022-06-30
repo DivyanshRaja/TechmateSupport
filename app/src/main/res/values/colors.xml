@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2B7996</color>
+    <color name="colorPrimaryBar">#4D97B1</color>
+    <color name="colorPrimaryDark">#316F87</color>
+    <color name="colorAccent">#2B7996</color>
+    <color name="login_bg_white">#fcf9f4</color>
+    <color name="white">#ffffff</color>
+    <color name="login_border_grey">#e9e7e6</color>
+    <color name="cancel_bg">#686868</color>
+    <color name="transparent">#00000000</color>
+    <color name="rp_txt_color_side">#686868</color>
+    <color name="grey">#5B5B5B</color>
+    <color name="black">#000000</color>
+    <color name="drawer_bg">#222d32</color>
+    <color name="recorder_bg">#F4511E</color>
+    <color name="album_title">#4c4c4c</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="bg_light_color">#316F87</color>
+    <color name="darkPrt">#C192F45E</color>
+    <color name="aspireTextColor">#2B2A29</color>
+    <color name="resolved_bg">#32c787</color>
+
+
+    <!--Alert Dialog Style Color-->
+    <color name="colorDefaultBottomDialogBackground">#f0f0f0</color>
+    <!--    <color name="colorBottomDialogDefaultButton">#3983f1</color>-->
+    <color name="colorBottomDialogDefaultButton">#2B7996</color>
+    <color name="colorError">#ff5757</color>
+    <color name="light_grey">#8BC3C0C0</color>
+    <color name="filter_bar_color">#C61689B1</color>
+    <color name="light_blue_400">#FF29B6F6</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="gray_400">#FFBDBDBD</color>
+    <color name="gray_600">#FF757575</color>
+
+
+</resources>

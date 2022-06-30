@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="customerSetModel"
+            type="com.asprime.techmatesupport.model.CustomerSetModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/extraUserView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header_title">
+
+        <LinearLayout
+            android:id="@+id/userDetailsLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="5dp"
+            app:layout_constraintEnd_toStartOf="@id/userBlockBtn"
+            app:layout_constraintBottom_toTopOf="@id/deviderView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textColor="#2C2E2B"
+                android:textSize="16sp"
+                android:text='@{customerSetModel.custCode+"-"+customerSetModel.custName}'/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:text="@{customerSetModel.userName}"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/userBlockBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/image_circle_bg"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"
+            app:btnType="@{customerSetModel.allow}"
+            app:layout_constraintBottom_toTopOf="@id/deviderView"
+            app:layout_constraintEnd_toStartOf="@id/editBtn"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/editBtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="8dp"
+            android:layout_marginBottom="7dp"
+            android:src="@drawable/edit_pen"
+            app:layout_constraintBottom_toTopOf="@id/deviderView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="TODO" />
+
+        <View
+            android:id="@+id/deviderView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#AD9A9797"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
